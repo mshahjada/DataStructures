@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Algorithms
 {
-    internal class HeapSort
+    public  class HeapSort
     {
     }
 }
