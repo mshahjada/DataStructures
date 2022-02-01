@@ -16,7 +16,20 @@ int[] arr = { 4,3,7,2,5};
 //BinarySearchTree.PreOrderTraverser(BinarySearchTree.GetTree());
 
 
-Console.WriteLine($"Sorted Result: {string.Join(", ", HeapSort.Apply(new int[] {5,3,6,2,4}))}");
+//Console.WriteLine($"Sorted Result: {string.Join(", ", HeapSort.Apply(new int[] {5,3,6,2,4}))}");
+
+Console.WriteLine($"BFS Result:");
+var g = new BFS(4);
+g.AddVertex(0, 1);
+g.AddVertex(0, 2);
+g.AddVertex(1, 2);
+g.AddVertex(2, 0);
+g.AddVertex(2, 3);
+g.AddVertex(3, 3);
+
+g.Traverse(2);
+
+
 
 Console.ReadKey();
     
