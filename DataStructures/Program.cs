@@ -2,6 +2,7 @@
 
 using DataStructures;
 using DataStructures.Algorithms;
+using DataStructures.Problems;
 
 //int[] arr = { 10, 5, 2, 8, 2, 7 };
 
@@ -18,18 +19,22 @@ int[] arr = { 4,3,7,2,5};
 
 //Console.WriteLine($"Sorted Result: {string.Join(", ", HeapSort.Apply(new int[] {5,3,6,2,4}))}");
 
-Console.WriteLine($"BFS Result:");
-var g = new BFS(4);
-g.AddVertex(0, 1);
-g.AddVertex(0, 2);
-g.AddVertex(1, 2);
-g.AddVertex(2, 0);
-g.AddVertex(2, 3);
-g.AddVertex(3, 3);
+//Console.WriteLine($"BFS Result:");
+//var g = new BFS(4);
+//g.AddVertex(0, 1);
+//g.AddVertex(0, 2);
+//g.AddVertex(1, 2);
+//g.AddVertex(2, 0);
+//g.AddVertex(2, 3);
+//g.AddVertex(3, 3);
 
-g.Traverse(2);
+//g.Traverse(2);
 
 
+//Console.WriteLine($"Longest Common Subsequent:");
+//var res = new LongestCommonSubsequent().commonChild("HARRY", "SALLY");
+
+KnapSack.Init();
 
 Console.ReadKey();
     
