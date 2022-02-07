@@ -34,7 +34,10 @@ int[] arr = { 4,3,7,2,5};
 //Console.WriteLine($"Longest Common Subsequent:");
 //var res = new LongestCommonSubsequent().commonChild("HARRY", "SALLY");
 
-KnapSack.Init();
+//KnapSack.Init();
 
+//var res = new EditDistance().Memoize("food", "money", 4, 5);
+
+new MinCostPath().TestMain();
 Console.ReadKey();
     
