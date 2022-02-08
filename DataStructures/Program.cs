@@ -55,9 +55,12 @@ int[] arr = { 4,3,7,2,5};
 //Console.WriteLine($"Array Compare Position:");
 
 //var res = new EditDistance().Memoize("food", "money", 4, 5);
-var res = new StringDecode().Encode("12345");
-Console.WriteLine($"{res}");
+//var res = new StringDecode().Encode("12345");
+//Console.WriteLine($"{res}");
 
-new MinCostPath().TestMain();
+//new MinCostPath().TestMain();
+
+new CoinChange().Initiaize();
+
 Console.ReadKey();
     
