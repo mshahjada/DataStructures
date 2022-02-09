@@ -38,6 +38,11 @@ int[] arr = { 4,3,7,2,5};
 
 //var res = new EditDistance().Memoize("food", "money", 4, 5);
 
-new MinCostPath().TestMain();
+//new MinCostPath().TestMain();
+
+//new Permutation().Initialize();
+
+new MergeSort().Initialize();
+
 Console.ReadKey();
     
