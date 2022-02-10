@@ -60,7 +60,9 @@ int[] arr = { 4,3,7,2,5};
 
 //new MinCostPath().TestMain();
 
-new CoinChange().Initiaize();
+//new CoinChange().Initiaize();
+
+new QuickSort().Initialize();
 
 Console.ReadKey();
     
